@@ -1,0 +1,12 @@
+{
+  "weather": [
+    {
+      "id": 1,
+      "city": "Nairobi",
+      "temperature": "28°C",
+      "condition": "Sunny",
+      "humidity": "40%",
+      "wind_speed": "10 km/h"
+    }
+  ]
+}
