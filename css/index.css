@@ -1,12 +1,17 @@
 body {
-  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
   background-image: url("../images/lake-3840x2160-4k-hd-wallpaper-sea-pink-sunset-sunrise-reflection-sky-864.jpg");
   background-size: cover;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
   height: 100vh; /* Ensures body takes full viewport height */
   margin: 0;
+  display: flex;
+  flex-direction: column;
 }
 .container {
-  color: aqua;
+  color: black;
   margin-top: 50px;
   background: white;
   padding: 20px;
@@ -14,13 +19,19 @@ body {
   display: inline-block;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
+.container:hover{
+  transform: scale(1.03);
+}
+h1 {
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
 input {
-  color:white;
   background: #007bff;
   padding: 10px;
   width: 200px;
   margin-right: 3px;
-  border: 1px;
+  border: none;
   border-radius: 20px;
 }
 button {
@@ -30,4 +41,59 @@ button {
   color: white;
   border: none;
   border-radius: 20px;
+  outline: none;
+}
+.button:hover{
+  background:#0056b3;
+  transform: scale(1.05);
+}
+.weather-card {
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
+  max-width: 400px;
+  margin: 20px auto;
+  text-align: left;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+
+.temperature {
+  font-size: 24px;
+  font-weight: bold;
+  color: #e74c3c;
+  margin-top: 10px;
+}
+
+
+.condition {
+  font-size: 18px;
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 10px;
+  padding: 5px 15px;
+  border-radius: 5px;
+  color: black;
+  transition: all 0.3s ease-in-out;
+}
+
+
+
+.error {
+  background-color: #e74c3c;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 20px;
+  text-align: center;
+  animation: shake 0.5s ease-in-out;
+}
+
+/* This to Shake Animation for Error */
+@keyframes shake {
+  0% { transform: translateX(0); }
+  25% { transform: translateX(-5px); }
+  50% { transform: translateX(5px); }
+  75% { transform: translateX(-5px); }
+  100% { transform: translateX(0); }
 }
