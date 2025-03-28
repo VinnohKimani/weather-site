@@ -19,3 +19,13 @@ This a simple web application that fetches and displays weather information for 
     Enter a city name in the input field and click the Search button
     View the displayed weather information
     If the city is not found, an error message will be displayed
+---Cities to work with -----
+   1.Nairobi
+   2.Mombasa
+   3.Kisumu
+   4.Eldoret
+   5.Thika
+   6.Malindi
+   7.Garissa
+   8.Nyeri
+   9.Lamu
