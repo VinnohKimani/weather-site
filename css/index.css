@@ -86,7 +86,7 @@ button {
   animation: shake 0.5s ease-in-out;
 }
 
-/* This to Shake Animation for Error */
+/* This is to Shake Animation for Error */
 @keyframes shake {
   0% {
     transform: translateX(0);
