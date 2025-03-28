@@ -29,3 +29,7 @@ This a simple web application that fetches and displays weather information for 
    7.Garissa
    8.Nyeri
    9.Lamu
+
+
+
+  

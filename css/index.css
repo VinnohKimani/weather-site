@@ -19,7 +19,8 @@ body {
   display: inline-block;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
-.container:hover{
+
+.container:hover {
   transform: scale(1.03);
 }
 h1 {
@@ -27,7 +28,7 @@ h1 {
   margin-bottom: 20px;
 }
 input {
-  background:white;
+  background: white;
   padding: 10px;
   width: 200px;
   margin-right: 3px;
@@ -38,13 +39,13 @@ button {
   padding: 10px;
   cursor: pointer;
   background: #007bff;
-  color:white;
+  color: white;
   border: none;
   border-radius: 20px;
   outline: none;
 }
-.button:hover{
-  background:#0056b3;
+.button:hover {
+  background: #0056b3;
   transform: scale(1.05);
 }
 .weather-card {
@@ -57,14 +58,12 @@ button {
   animation: fadeIn 0.5s ease-in-out;
 }
 
-
 .temperature {
   font-size: 24px;
   font-weight: bold;
   color: #e74c3c;
   margin-top: 10px;
 }
-
 
 .condition {
   font-size: 18px;
@@ -76,8 +75,6 @@ button {
   color: black;
   transition: all 0.3s ease-in-out;
 }
-
-
 
 .error {
   background-color: #e74c3c;
@@ -91,9 +88,19 @@ button {
 
 /* This to Shake Animation for Error */
 @keyframes shake {
-  0% { transform: translateX(0); }
-  25% { transform: translateX(-5px); }
-  50% { transform: translateX(5px); }
-  75% { transform: translateX(-5px); }
-  100% { transform: translateX(0); }
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-5px);
+  }
+  50% {
+    transform: translateX(5px);
+  }
+  75% {
+    transform: translateX(-5px);
+  }
+  100% {
+    transform: translateX(0);
+  }
 }
