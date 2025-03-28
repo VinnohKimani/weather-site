@@ -1,5 +1,6 @@
 -----Weather Site-------
 This a simple web application that fetches and displays weather information for a specified city.
+It displays past weather data that I inserted through my db.json file.
 
 ----Features------
    Search for weather by city name
@@ -29,7 +30,7 @@ This a simple web application that fetches and displays weather information for 
    7.Garissa
    8.Nyeri
    9.Lamu
-
+Author of the code --Vincent Macharia Kimani
 
 
   
