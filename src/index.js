@@ -1,3 +1,4 @@
+// My js
 document.addEventListener("DOMContentLoaded", () => {
   // Here I'm retrieving elements from the DOM
   const cityInput = document.getElementById("city");
